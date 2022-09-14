@@ -1,0 +1,106 @@
+using System;
+namespace ConsoleApp
+{
+    class miano {
+    static void Main (string[] args){
+        
+        Console.Write("Name                       : ");
+        string name1 = Console.ReadLine();
+        
+        Console.Write("Present Adress             : ");
+        string name2 = Console.ReadLine();
+        
+        Console.Write("Permanent Adress           : ");
+        string name3 = Console.ReadLine();
+        
+        Console.Write("Date of Birth              : ");
+        string name4 = Console.ReadLine();
+        
+        Console.Write("Civil Status               : ");
+        string name5 = Console.ReadLine();
+        
+        Console.Write("Citezen Ship               : ");
+        string name6 = Console.ReadLine();
+        
+        Console.Write("Place of birth              : ");
+        string name7 = Console.ReadLine();
+        
+        Console.Write("Name of father              : ");
+        string name8 = Console.ReadLine();
+        
+        Console.Write("Name of Mother              : ");
+        string name9 = Console.ReadLine();
+        
+        Console.Write("Adress                      : ");
+        string name0 = Console.ReadLine();
+        
+        Console.Write("Language or Dialects Spoken : ");
+        string name11 = Console.ReadLine();
+        
+        Console.Write("Religion                     : ");
+        string name12 = Console.ReadLine();
+        
+        Console.Write("Enter your Age               : ");
+        int age;
+        age = Convert.ToInt32(Console.ReadLine());
+        
+        Console.Write("Weight                       : ");
+        string name13 = Console.ReadLine();
+        
+        Console.Write("Height                       : ");
+        string name14 = Console.ReadLine();
+        
+        Console.WriteLine("Name ;" + name1 ) ;
+        Console.WriteLine();
+        
+        
+        Console.WriteLine("Present Adress                   ;" + name2) ;
+        Console.WriteLine();
+        
+        Console.WriteLine("Permanent Adress                 ;" + name3  ) ;
+        Console.WriteLine();
+        
+        Console.WriteLine("Date of Birth                    ;" + name4 );
+        Console.WriteLine();
+        
+        Console.WriteLine("Civil Status                     ;" + name5 ) ;
+        Console.WriteLine();
+        
+        Console.WriteLine("Citizen ship                     ;" + name6 ) ;
+        Console.WriteLine();
+        
+        Console.WriteLine("Place of Birth                   ;" + name7 ) ;
+        Console.WriteLine();
+        
+        Console.WriteLine("Name of father                   ;" + name8 ) ;
+        Console.WriteLine();
+        
+        Console.WriteLine("Name of Mother                   ;" + name9) ;
+        Console.WriteLine();
+        
+        Console.WriteLine("Adress                           ;" + name0 ) ;
+        Console.WriteLine();
+        
+        Console.WriteLine("Language or Dialects Spoken      ;" + name11 ) ;
+        Console.WriteLine();
+        
+        Console.WriteLine("Religion                         ;" + name12 ) ;
+        Console.WriteLine();
+        
+        Console.WriteLine("Enter your Age                   ;" + age ) ;
+        Console.WriteLine();
+        
+        Console.WriteLine("Weight                           ;" + name13 ) ;
+        Console.WriteLine();
+        
+        Console.WriteLine("Height                           ;" + name14 ) ;
+        Console.WriteLine();
+            
+        
+       
+           
+        Console.Write("\nPress any key to exit...");
+        Console.ReadKey();
+        }
+    }
+}
